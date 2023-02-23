@@ -1,0 +1,27 @@
+.animal-show {
+    position: relative;
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 3px 3px 4px lightgray;
+}
+/*
+position: relative;: sets the position of the element relative to its normal position in the document flow.
+border: 1px solid lightgray;: sets a border with a width of 1 pixel, a solid style, and a light gray color.
+padding: 10px;: adds 10 pixels of space between the element's content and its border.
+border-radius: 5px;: rounds the corners of the element's border to 5 pixels.
+margin: 10px;: adds 10 pixels of space between this element and other elements on the page.
+box-shadow: 0px 3px 4px lightgray;: creates a drop shadow effect for the element, 
+with an offset of 0 pixels in the horizontal direction, 3 pixels in the vertical direction, a blur radius of 4 pixels, and a light gray color.*/
+
+.animal {
+    height: 200px;
+}
+  
+.heart {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+}
+  

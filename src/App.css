@@ -1,0 +1,32 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+/*
+display: flex; specifies that the element should be displayed as a flex container.
+flex-direction: column; sets the main axis of the flex container to be vertical, so the child elements will be stacked vertically from top to bottom.
+align-items: center; aligns the child elements along the cross axis of the flex container, which is horizontal in this case, to be centered.
+*/
+button {
+    background-color: lightgreen;
+    border: 1px solid green;
+    border-radius: 3px;
+    font-size: 20px;
+    padding: 10px;
+    width: 30%;
+}
+  
+.animal-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  /*
+display: flex; specifies that the element should be displayed as a flex container.
+flex-direction: row; sets the main axis of the flex container to be horizontal, so the child elements will be laid out in a row from left to right.
+flex-wrap: wrap; allows the child elements to wrap onto the next line if there is not enough space on the current line.
+justify-content: center; aligns the child elements along the main axis of the flex container, which is horizontal in this case, to be centered.
+*/
